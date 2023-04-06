@@ -13,7 +13,7 @@
     "pre-commit": "lint-staged",
     "prepare": "husky install"
   },
-  "private": false,
+  "private": true,
   "devDependencies": {
     "@nx/devkit": "16.7.4",
     "@nx/eslint-plugin": "16.7.4",
