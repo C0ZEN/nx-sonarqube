@@ -70,6 +70,11 @@
       "description": "Project base directory.",
       "type": "string",
       "default": ""
+    },
+    "gitHubPullRequestSummaryComment": {
+      "description": "Add GitHub Pull Requests comments.",
+      "type": "boolean",
+      "default": false
     }
   },
   "required": ["hostUrl", "projectKey"]
