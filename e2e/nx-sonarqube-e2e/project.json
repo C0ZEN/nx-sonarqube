@@ -13,11 +13,11 @@
       "dependsOn": ["nx-sonarqube:build"]
     },
     "sonar": {
-      "executor": "@koliveira15/nx-sonarqube:scan",
+      "executor": "@C0ZEN/nx-sonarqube:scan",
       "options": {
         "name": "nx-sonarqube",
         "hostUrl": "https://sonarcloud.io",
-        "organization": "koliveira15",
+        "organization": "C0ZEN",
         "projectKey": "nx-sonarqube",
         "skipTargetDefaults": false,
         "branches": false,
